@@ -1,4 +1,4 @@
-# Kinshu Raj Gupta
+# Aryan Pandey
 
 **A personal portfolio website made using *ReactJS* and *TailwindCSS***
 
