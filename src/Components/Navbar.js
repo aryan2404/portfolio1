@@ -32,7 +32,7 @@ function Navbar() {
   ]
 
   return (
-    <nav className='flex text-white h-20 items-center justify-between bg-black bg-opacity-90 top-0 sticky z-10'>
+    <nav className='flex text-white h-20 items-center justify-between bg-black bg-opacity-110 top-0 sticky z-10'>
 
       <a href='/' className='hover:text-sky-500 cursor-pointer text-5xl font-signature font-bold ms-6 hover:scale-105 duration-300'>Aryan Pandey</a>
 
@@ -49,7 +49,7 @@ function Navbar() {
 
       {/* To toggle bw the hamburger and cross icons */}
       <div onClick={() => SetNav(!nav)} className='md:hidden pr-6 z-10 cursor-pointer text-gray-500' >
-        {nav ? <FaTimes size={30} /> : <FaBars size={30} />}
+        {nav ? <FaTimes size={40} /> : <FaBars size={40} />}
       </div>
 
       {/* To only display this menu when "nav" is true on smaller screens */}

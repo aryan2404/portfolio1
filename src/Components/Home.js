@@ -1,5 +1,5 @@
 import { React } from 'react'
-import mainpic from "../Assets/aryan.png"
+import mainpic from "../Assets/image.png"
 import { Link } from 'react-scroll'
 import { useTypewriter, Cursor } from 'react-simple-typewriter'
 
@@ -17,9 +17,9 @@ function Home() {
 
       <div className="max-w-screen-lg mx-auto flex flex-col h-full items-center justify-center px-4 md:flex-row">
 
-        <div className='flex flex-col justify-center h-full x-sm:mt-40 md:mt-0'>
+        <div className='flex flex-col justify-center h-full x-sm:mt-70 md:mt-0'>
 
-          <h2 className='h-28 md:h-44 text-white text-4xl md:text-7xl py-4'>I'm a  <span  className='text-transparent bg-clip-text bg-gradient-to-tr from-purple-500 to-sky-500'>
+          <h2 className='h-32 md:h-48 text-white text-4xl md:text-7xl py-4'>I'm a  <span  className='text-transparent bg-clip-text bg-gradient-to-tr from-purple-500 to-sky-500'>
             {text}
             </span> 
             <span><Cursor/></span>
