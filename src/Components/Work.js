@@ -3,7 +3,7 @@ import Newsify from '../Assets/Newsify-temp3.png'
 import TextUtils from '../Assets/TextUtils-temp5.png'
 import snake from '../Assets/snakeImage.png'
 import ImageAI from '../Assets/ImageAI-temp2.png'
-import Hotelify from '../Assets/Hotelify.png'
+import shopping_application from '../Assets/shopping_application.png'
 import Recruitify from '../Assets/Recruitify-temp1.png'
 import { FaGithub } from 'react-icons/fa'
 import { BsFillRocketTakeoffFill } from 'react-icons/bs'
@@ -13,11 +13,11 @@ function Work() {
     const projects = [
         {
             id: 1,
-            src: Hotelify,
-            name: "Hotelify",
-            desc: "Hotelify is a full-stack web application (with Stripe integration) that serves as a clone of popular hotel booking platforms like Booking.com.",
-            codelink: "",
-            demolink: ""
+            src: shopping_application,
+            name: "Shopping Application",
+            desc: "Shopping Application is a React base web application that serves as a clone of Ecommerce shopping website",
+            codelink: "https://github.com/aryan2404/shopping_application",
+            demolink: "https://github.com/aryan2404/shopping_application"
         },
         {
             id: 2,
